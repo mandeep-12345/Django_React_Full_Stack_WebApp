@@ -1,7 +1,7 @@
 import axios from "axios";
 import { ACCESS_TOKEN } from "./constants";
 
-const apiUrl = "/choreo-apis/djangoreactpostgresapp/backend/v1.0";
+const apiUrl = "https://adc9635e-c576-4168-85f1-9376d33c0864-dev.e1-us-east-azure.choreoapis.dev/djangoreactpostgresapp/backend/v1.0";
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : apiUrl,
